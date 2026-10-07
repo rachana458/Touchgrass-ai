@@ -1,36 +1,93 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🌿 TouchGrass AI
 
-## Getting Started
+TouchGrass AI is an open-source AI-powered web app that encourages people to step away from their screens and spend time outdoors.
 
-First, run the development server:
+Users choose an outdoor activity, available time, and current mood. The app then uses an open-weight AI model to generate a personalized outdoor challenge.
+
+## ✨ Features
+
+* 🚶 Choose an outdoor activity
+* ⏱️ Choose how much time you have
+* 😊 Choose your current mood
+* 🤖 Generate an outdoor challenge using open-source AI
+* 🔄 Generate another challenge
+* 🌎 Mark a challenge as completed
+* 🌱 Track completed outdoor adventures
+* 📱 Responsive web interface
+
+## 🤖 Open-Source AI
+
+TouchGrass AI uses the open-weight:
+
+**Qwen2.5-0.5B-Instruct**
+
+through **Transformers.js**.
+
+The model runs directly in the browser, allowing the application to generate outdoor ideas without relying on a paid AI API.
+
+## 🛠️ Technologies
+
+* Next.js
+* React
+* TypeScript
+* Tailwind CSS
+* Transformers.js
+* Qwen2.5-0.5B-Instruct
+* GitHub
+
+## 🚀 Run Locally
+
+Clone the repository:
+
+```bash
+git clone YOUR_GITHUB_REPOSITORY_URL
+cd touchgrass-ai
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```text
+http://localhost:3000
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🌿 How It Works
 
-## Learn More
+1. The user selects an outdoor activity.
+2. The user selects the available time.
+3. The user selects their mood.
+4. TouchGrass AI sends these choices to the open-weight AI model.
+5. The model generates a short outdoor activity idea.
+6. The app turns the idea into an outdoor challenge.
+7. The user can complete the challenge or generate another one.
 
-To learn more about Next.js, take a look at the following resources:
+## 🎯 Why I Built It
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Modern technology keeps us connected to our screens, but sometimes the best experience is simply stepping outside.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+I built TouchGrass AI for the Hacktoberfest 2026 Week 1 **Touch Grass** challenge to explore how open-source AI can be used for something simple, positive, and practical.
 
-## Deploy on Vercel
+Instead of using AI to keep people on a screen, this project uses AI to encourage people to **leave the screen and go outside.** 🌎
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🏆 Hacktoberfest
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Built for:
+
+**Hacktoberfest 2026 — Week 1: Touch Grass**
+
+The project focuses on using open-source AI/open-weight models to create a practical experience that encourages outdoor activity.
+
+## 📄 License
+
+This project is open source and available under the MIT License.
