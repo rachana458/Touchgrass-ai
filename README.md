@@ -3,6 +3,11 @@
 TouchGrass AI is an open-source AI-powered web app that encourages people to step away from their screens and spend time outdoors.
 
 Users choose an outdoor activity, available time, and current mood. The app then uses an open-weight AI model to generate a personalized outdoor challenge.
+<img width="1920" height="1080" alt="Screenshot (122)" src="https://github.com/user-attachments/assets/635f6794-b2f1-411b-8420-750cf1a724c2" />
+<img width="1920" height="1080" alt="Screenshot (124)" src="https://github.com/user-attachments/assets/2a616f5b-448e-429e-a9f0-bd9ef97b1d6c" />
+<img width="1920" height="1080" alt="Screenshot (123)" src="https://github.com/user-attachments/assets/3589cce7-c390-4998-b7c8-58b827e31a54" />
+
+
 
 ## ✨ Features
 
